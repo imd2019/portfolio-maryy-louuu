@@ -33,24 +33,11 @@
   justify-content: flex-end;
 }
 
-.meProfil {
-  background-image: url("me.jpg");
-  display: flex;
-  height: 410px;
-  width: 55vw;
-  margin-top: 217px;
-  margin-left: -230px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  justify-content: flex-end;
-}
-
 .grid-container {
   display: grid;
-  grid-template-columns: 600px 150px auto 150px;
+  grid-template-columns: 500px 150px auto 150px;
   padding: 0px;
-  grid-template-rows: 500px;
+  grid-template-rows: 200px 200px 200px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -62,4 +49,10 @@
 
 .grid-item1 {
   background-image: url("me.jpg");
+  grid-row: 1 / 4;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  justify-content: flex-end;
 }
