@@ -3,6 +3,8 @@
   justify-content: flex-end;
   list-style: none;
   margin-top: -10px;
+  margin-left: -7.8px;
+  margin-right: -7.8px;
   background: #8b0000;
 }
 
@@ -18,8 +20,7 @@
 }
 
 .me {
-  display: flex;
   width: 100vw;
-  box-sizing: border-box;
-  justify-content: flex-end;
+  margin-top: -20px;
+  margin-left: -7.8px;
 }
