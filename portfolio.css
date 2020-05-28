@@ -51,8 +51,14 @@
   background-image: url("me.jpg");
   grid-row: 1 / 4;
   display: flex;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   box-sizing: border-box;
   justify-content: flex-end;
+  transform: rotate(90deg);
+}
+
+.grid-item1 {
+  grid-template-columns: 1/6;
 }
