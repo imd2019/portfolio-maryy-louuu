@@ -18,9 +18,5 @@
 }
 
 .me {
-  height: auto;
-  display: block;
-  box-sizing: border-box;
-
-  justify-content: flex-end;
+  display: flex;
 }
