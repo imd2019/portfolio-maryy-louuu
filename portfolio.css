@@ -44,5 +44,22 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
   justify-content: flex-end;
-  transform: rotate(90deg);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 600px 150px auto 150px;
+  padding: 0px;
+  grid-template-rows: 500px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item1 {
+  background-image: url("me.jpg");
 }
