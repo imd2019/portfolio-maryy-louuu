@@ -56,7 +56,6 @@
   background-position: bottom;
   box-sizing: border-box;
   justify-content: flex-end;
-  transform: rotate(90deg);
 }
 
 .grid-item1 {
