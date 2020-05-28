@@ -19,8 +19,17 @@
   background: #e9967a;
 }
 
-.me {
+/*.me {
   width: 100vw;
   margin-top: -20px;
   margin-left: -7.8px;
+}*/
+.me {
+  display: flex;
+  height: 400px;
+  width: 100vw;
+  background-image: url("route66.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  justify-content: flex-end;
 }
